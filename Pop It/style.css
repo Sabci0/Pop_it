@@ -1,0 +1,14 @@
+.header{
+background-image: url('images/background.png') ;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+min-height: 500px;
+}
+*{
+    margin: 0;
+    /*background-color:red;*/
+}
+a{
+    text-decoration: none;
+}
