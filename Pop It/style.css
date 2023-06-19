@@ -243,8 +243,10 @@ a{
   }
 
 
-  @media (max-width: 768px) {
-    
+  @media (min-width: 769px) {
+    .nav_items {
+      display: flex;
+    }
   }
 
   @media (max-width:870px) {
@@ -255,5 +257,20 @@ a{
     .footer_nav{
         flex-direction: column;
         align-items: center;
+    }
+  }
+
+  @media (max-width:970px){
+    .component{
+      display: flex;
+      flex-direction: column;
+      background-position: top;
+    }
+
+    .component__text{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 40px;
     }
   }
